@@ -6,16 +6,22 @@ body {
     background-image: url(imgs/fundo.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: sans-serif;
+}
+
+#user {
+    margin: 0;
+    width: 40px;
+    cursor: pointer;
 }
 
 .botoes {
     background-image: url(imgs/fundo-botao.jpg);
-    font-family: sans-serif;
     text-align: center;
     border: 1px solid gray;
     border-radius: 20px;
     padding: 20px;
-    color: white;
+    color: lightyellow;
     display: grid;
     margin-left: 111px;
     margin-top: 33px;
@@ -24,7 +30,6 @@ body {
     cursor: pointer;
 }
 
-#user {
-    margin: 0;
-    width: 40px;
+a :hover {
+    color: goldenrod;
 }
