@@ -1,0 +1,30 @@
+html, body {
+    min-height: 100%;
+}
+
+body {
+    background-image: url(imgs/fundo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.botoes {
+    background-image: url(imgs/fundo-botao.jpg);
+    font-family: sans-serif;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    display: grid;
+    margin-left: 111px;
+    margin-top: 33px;
+    font-size: 20px;
+    width: 20%;
+    cursor: pointer;
+}
+
+#user {
+    margin: 0;
+    width: 40px;
+}
