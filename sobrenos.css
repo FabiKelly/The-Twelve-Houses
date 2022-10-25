@@ -1,0 +1,56 @@
+body{
+    background-image: url(https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2016/08/186628-universo.jpg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: cover;    
+}
+html, body{
+    min-height: 100%;
+}
+h1{
+    color: aliceblue;
+    font-size: 300%;
+    margin: 0% 0% 0% 45%;
+
+}
+h2{
+    color: aliceblue;
+    font-size: 250%;
+    margin: 0% 0% 0% 45%;
+}
+
+#l,#f{
+    width: 20%;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+p{
+    color: white;
+    float: right;
+}
+
+div{
+    border: 5px solid white;
+    margin: 5%;
+    padding: 2%;
+    border-radius: 10%;
+}    
+
+@keyframes girando-de-costas{
+    from{transform: rotateY(0);}
+    to{transform: rotateY(900deg)};
+   }
+
+img:hover{
+    animation: girando-de-costas 7800ms ease-in 1 forwards;
+}
+
+#h{
+    margin-left: 80%;
+    width: 20%;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+
