@@ -1,0 +1,93 @@
+body,html{
+    min-height: 100%;
+}
+body{
+    background-image: url(imgs/dragão.webp);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+}
+#imagem-cav{
+    height: 600px;
+    float: left;
+    margin-left: 5%;
+}
+h1,p{
+    color:aliceblue;   
+}
+p{
+    font-size: 19px;
+}
+h1{
+    font-size: 60px;
+    margin-left: 5%;
+}
+#tabela{
+    height: 600px;
+    margin-left: 14%;
+    margin-top: -7%;
+
+}
+#descricao{
+    text-align: center;
+    margin-left: 55%;
+    margin-right: 15%; 
+}
+#hab{
+    margin-left: 56%;
+    margin-top: -7%;
+}
+#defesa{
+    margin-left: 68%;
+}
+#asdw{
+    height: 280px;
+    margin-left: 35.5%;
+    margin-top: -4%;
+}
+#soco{
+    margin-left: 75%;
+    margin-top: -8%;
+}
+#Chute{
+    margin-top: -2%;
+    margin-left: 61%;
+}
+#tec{
+    margin-left: 66%;
+    margin-top: 2%;
+}
+#barra{
+    height: 300px;
+    margin-top: -10%;
+    margin-left: 4%;
+    
+}
+#seta-esquerda{
+    height: 90px;
+    margin-top: -5%;
+    margin-left: 11%;
+}
+#seta-direita{
+    height: 70px;
+
+}
+#andar{
+    margin-top: -6%;
+    margin-left: 15%;
+}
+#prox{
+    position: fixed; right: 0;
+    top: 450px;
+    color: rgb(127, 129, 255);
+    margin-right: 3px;
+}
+#ant{
+    position: fixed; left: 0;
+    top: 450px;
+    color: rgb(127, 129, 255);
+    margin-right: 3px;
+}
+#pag-ini{
+   
+}
