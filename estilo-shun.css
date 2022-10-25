@@ -7,10 +7,12 @@ body{
     background-position: left top;
     background-size: cover;
 }
-#principal img{
-    float: left;
-    padding-right: 1vw;
+
+img[src*="home"] {
+    border-radius: 0;
+    width: 1.5vw;
 }
+
 #imagem-cav{
     height: 600px;
     float: left;
