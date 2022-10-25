@@ -7,6 +7,9 @@ body{
     background-position: left top;
     background-size: cover;
 }
+#principal {
+    height: 20px;
+}
 #imagem-cav{
     height: 600px;
     float: left;
