@@ -8,11 +8,6 @@ body{
     background-size: cover;
 }
 
-img[src*="home"] {
-    border-radius: 0;
-    width: 1.5vw;
-}
-
 #imagem-cav{
     height: 600px;
     float: left;
