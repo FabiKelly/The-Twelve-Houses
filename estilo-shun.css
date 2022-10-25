@@ -7,8 +7,8 @@ body{
     background-position: left top;
     background-size: cover;
 }
-#principal {
-    height: 20px;
+#principal img{
+    height: 50px;
 }
 #imagem-cav{
     height: 600px;
