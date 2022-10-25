@@ -8,7 +8,8 @@ body{
     background-size: cover;
 }
 #principal img{
-    height: 30px;
+    float: left;
+    padding-right: 1vw;
 }
 #imagem-cav{
     height: 600px;
