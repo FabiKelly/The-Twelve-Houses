@@ -22,21 +22,14 @@ h2{
     margin: 0% 0% 0% 45%;
 }
 
-#f{
-    width: 10%;
-    height: 10%;
+#l, #f{
+    width: 20%;
     border-radius: 50%;
     border: 5px solid white;
 }
 
 #h{
     margin-left: 80%;
-    width: 20%;
-    border-radius: 50%;
-    border: 5px solid white;
-}
-
-#l{
     width: 20%;
     border-radius: 50%;
     border: 5px solid white;
@@ -49,7 +42,6 @@ p{
 
 div{
     blackground-color: white;
-    blackground-opacity: 80%;
     border: 5px solid white;
     margin: 5%;
     padding: 2%;
