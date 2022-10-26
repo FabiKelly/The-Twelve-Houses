@@ -24,6 +24,7 @@ h2{
 
 #f{
     width: 10%;
+    height: 10%;
     border-radius: 50%;
     border: 5px solid white;
 }
@@ -47,8 +48,8 @@ p{
 }
 
 div{
-    color: white;
-    opacity: 80%;
+    blackground-color: white;
+    blackground-opacity: 80%;
     border: 5px solid white;
     margin: 5%;
     padding: 2%;
