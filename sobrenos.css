@@ -19,7 +19,20 @@ h2{
     margin: 0% 0% 0% 45%;
 }
 
-#l,#f{
+#f{
+    width: 10%;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+#h{
+    margin-left: 80%;
+    width: 20%;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+#l{
     width: 20%;
     border-radius: 50%;
     border: 5px solid white;
@@ -34,7 +47,7 @@ div{
     border: 5px solid white;
     margin: 5%;
     padding: 2%;
-    border-radius: 10%;
+    border-radius: 20%;
 }    
 
 @keyframes girando-de-costas{
@@ -46,11 +59,6 @@ img:hover{
     animation: girando-de-costas 7800ms ease-in 1 forwards;
 }
 
-#h{
-    margin-left: 80%;
-    width: 20%;
-    border-radius: 50%;
-    border: 5px solid white;
-}
+
 
 
