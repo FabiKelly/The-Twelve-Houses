@@ -44,6 +44,8 @@ p{
 }
 
 div{
+    color: white;
+    opacity: 80%;
     border: 5px solid white;
     margin: 5%;
     padding: 2%;
@@ -58,7 +60,5 @@ div{
 img:hover{
     animation: girando-de-costas 7800ms ease-in 1 forwards;
 }
-
-
 
 
