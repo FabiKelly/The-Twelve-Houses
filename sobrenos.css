@@ -7,6 +7,9 @@ body{
 html, body{
     min-height: 100%;
 }
+#principal{
+    height: 50px;
+}
 h1{
     color: aliceblue;
     font-size: 300%;
