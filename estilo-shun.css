@@ -24,74 +24,111 @@ p{
     font-size: 19px;
 }
 h1{
-    font-size: 60px;
+    font-size: 55px;
     margin-left: 5%;
 }
 #tabela{
     height: 600px;
-    margin-left: 14%;
-    margin-top: -7%;
+    margin-left: 10%;
+    margin-top: -13%;
 
 }
 #descricao{
     text-align: center;
-    margin-left: 55%;
+    margin-left: 27%;
     margin-right: 15%; 
+    margin-top: 14%;  
 }
 #hab{
-    margin-left: 56%;
-    margin-top: -7%;
-    margin-right: 15%;
+    margin-left: 29%;
+    margin-top: -12%;
+    margin-right: 20%;
     text-align: center;
 }
 #defesa{
-    margin-left: 68%;
+    margin-left: 53%;
+    margin-top: 1%;
 }
 #asdw{
     height: 280px;
-    margin-left: 35.5%;
-    margin-top: -4%;
+    margin-left: 45.5%;
+    margin-top: -6.5%;
 }
 #soco{
-    margin-left: 75%;
-    margin-top: -8%;
+    margin-left: 64%;
+    margin-top: -12%;
 }
 #Chute{
-    margin-top: -2%;
-    margin-left: 61%;
+    margin-top: -3.5%;
+    margin-left: 42%;
 }
 #tec{
-    margin-left: 66%;
-    margin-top: 2%;
+    margin-left: 49%;
+    margin-top: 3%;
 }
 #barra{
     height: 300px;
-    margin-top: -10%;
+    margin-top: -17%;
     margin-left: 4%;
     
 }
 #seta-esquerda{
     height: 90px;
-    margin-top: -5%;
-    margin-left: 11%;
+    margin-top: -12%;
+    margin-left: 20%;
 }
 #seta-direita{
     height: 70px;
+    margin-left: 20%;
+    margin-top: -10%;
 
 }
 #andar{
-    margin-top: -6%;
-    margin-left: 15%;
+    margin-top: -22%;
+    margin-left: 40%;
 }
 #prox{
     position: fixed; right: 0;
     top: 450px;
-    color: rgb(127, 129, 255);
-    margin-right: 3px;
+    height: 3%;
+    width: 2%;
 }
-#ant{
-    position: fixed; left: 0;
-    top: 450px;
-    color: rgb(127, 129, 255);
-    margin-right: 3px;
+a:link{
+    text-decoration: none;
+}
+#esquerda{
+    display: flex;
+    flex-direction: column; 
+    align-content: stretch;
+    justify-content: flex-start;
+}
+#direita{
+    display: flex;
+    flex-direction: column; 
+    align-content: stretch;
+}
+#esquerda{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#tudo{
+    display: flex;
+    justify-content: space-around;
+}
+#direita{
+    display: flex;
+    flex-direction: column;
+}
+#mover{
+    display: flex;
+    flex-direction: row;
+}
+#centro{
+    display: flex;
+    flex-direction: row;
+}
+#principal{
+    height: 30px;
+    position: fixed; left: 0px;
 }
