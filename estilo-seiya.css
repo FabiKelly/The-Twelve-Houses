@@ -1,95 +1,49 @@
-body,html{
-    min-height: 100%;
-}
-body{
-    background-image: url(imgs/pegasus.webp);
-    background-repeat: no-repeat;
-    background-position: left top;
-    background-size: cover;
-}
-#principal {
-    height: 50px;
-}
-#imagem-cav{
-    height: 600px;
-    float: left;
-    margin-left: 5%;
-}
-h1,p{
-    color:aliceblue;   
-}
-p{
-    font-size: 19px;
-}
-h1{
-    font-size: 60px;
-    margin-left: 5%;
-}
-#tabela{
-    height: 600px;
-    margin-left: 14%;
-    margin-top: -7%;
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Comandos</title>
+        <link rel="stylesheet" href="estilo-seiya.css">
+        <link rel="icon" href="imgs/icone.png">
+    </head> 
+    <body id="seya">
+        <a href="principal.html">
+            <img src="imgs/icone.png" id="principal">
+        </a>
+        <div id="tudo">
+            <div id="esquerda">
+                <h1>Seiya de Pégaso</h1>
+                <img id="imagem-cav"src="https://2.bp.blogspot.com/_hFLq0zR_I8g/TPv-leSLhyI/AAAAAAAAD4Y/EFHBeP_000E/s1600/Seiya_III.png">
+                <img id="barra"src="imgs/barra-pular.png">
+                <p id="andar">Andar</p>
+                <div id="mover">
+                    <img id="seta-esquerda" src="imgs/seta-esquerda.png">
+                    <img id="seta-direita" src="imgs/seta-direita.png">
+                </div>
+            </div>
 
-}
-#descricao{
-    text-align: center;
-    margin-left: 55%;
-    margin-right: 15%; 
-}
-#hab{
-    margin-left: 56%;
-    margin-top: -7%;
-    margin-right: 15%;
-    text-align: center;
-}
-#defesa{
-    margin-left: 68%;
-}
-#asdw{
-    height: 280px;
-    margin-left: 35.5%;
-    margin-top: -4%;
-}
-#soco{
-    margin-left: 75%;
-    margin-top: -8%;
-}
-#Chute{
-    margin-top: -2%;
-    margin-left: 61%;
-}
-#tec{
-    margin-left: 66%;
-    margin-top: 2%;
-}
-#barra{
-    height: 300px;
-    margin-top: -10%;
-    margin-left: 4%;
-    
-}
-#seta-esquerda{
-    height: 90px;
-    margin-top: -5%;
-    margin-left: 11%;
-}
-#seta-direita{
-    height: 70px;
 
-}
-#andar{
-    margin-top: -6%;
-    margin-left: 15%;
-}
-#prox{
-    position: fixed; right: 0;
-    top: 450px;
-    color: rgb(127, 129, 255);
-    margin-right: 3px;
-}
-#ant{
-    position: fixed; left: 0;
-    top: 450px;
-    color: rgb(127, 129, 255);
-    margin-right: 3px;
-}
+            <div id="direita">
+                <p id="descricao">Seiya é um dos cavaleiros de bronze de Atenas e muito impulsivo.  Sua maior força é a sua alta-confiança.
+                <br><br>Lugar de treinamento: Santuário, Grécia</p>
+                <img id="tabela"src="imgs/Seiya-tabela.png">
+                <p id="hab">Meteoro de Pégasus: Concentrando o cosmo em suas mãos ele dispara 100 golpes por segundo.</p>
+                <p id="defesa">Defesa</p>
+                <div id="centro"><img id="asdw"src="imgs/seta-a-s-d-w.png"></div>
+                <p id="soco">Soco</p>
+                <p id="Chute">Chute</p>
+                <p id="tec">Técnica Especial</p>
+            </div>
+        </div>
+        
+        
+        <a href="shiryu-comandos.html">
+            <img src="imgs/setinha-esquerda.png" id="ant">
+        </a>
+        <a href="ikki-comandos.html">
+            <img src="imgs/setinha-direita.png" id="prox">
+        </a>
+        
+    </body>
+</html>
