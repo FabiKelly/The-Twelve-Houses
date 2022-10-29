@@ -53,7 +53,7 @@ div{
     to{transform: rotateY(900deg)};
    }
 
-img {
+img:hover {
     position: absolute;
     transition: opacity 500ms;
     width: 100%;
