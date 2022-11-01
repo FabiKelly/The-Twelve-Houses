@@ -46,6 +46,7 @@ div{
     margin: 5%;
     padding: 2%;
     border-radius: 20%;
+    color: rgba(255, 255, 255, 0.20);
 }    
 
 @keyframes girando-de-costas{
