@@ -15,6 +15,16 @@ body {
     cursor: pointer;
 }
 
+.janela-modal {
+    width: 100vw;
+    height: 100vh;
+    prosition: relative;
+    top: 0;
+    left: 0;
+    background-color: #00000080;
+    
+}
+
 .botoes {
     background-image: url(imgs/fundo-botao.jpg);
     text-align: center;
