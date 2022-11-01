@@ -1,0 +1,9 @@
+html, body {
+    min-height: 100%;
+}
+
+body {
+    background-image: url(imgs-jogo/Santu%3Frio0.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
