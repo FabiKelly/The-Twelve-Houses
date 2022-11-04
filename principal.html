@@ -17,9 +17,31 @@
     <a href="jogadores.html" class="botoes">    <strong>JOGADORES</strong></a>
     
     <div id="abrirModal" class="modal">
-      <div id="login">
+      <div id="cadastro">
         <a href="#fechar" title="Fechar" class="fechar">x</a>
-        <h1>LOGIN</h1>
+        
+        <form>
+          <h2>Cadastrar</h2>
+
+          <label for="username">Nome</label>
+          <div class="input">
+            <input id="username" placeholder="Username" type="text">
+          </div>
+
+          <label for="email">Email</label>
+          <div class="input">
+            <input id="email" placeholder="Email" type="text">
+          </div>
+        
+          <label for="senha">Senha</label>
+          <div class="input">
+            <input id="senha" placeholder="Password" type="password">
+          </div>
+        
+          <div id="btnC">
+            <button type="submit">Cadastrar</button>
+          </div>
+        </form>
       </div>
     </div>
   </body>
