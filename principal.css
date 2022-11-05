@@ -15,6 +15,10 @@ body {
     cursor: pointer;
 }
 
+a {
+    text-decoration: none;
+}
+
 .botoes {
     background-image: url(imgs/fundo-botao.jpg);
     text-align: center;
