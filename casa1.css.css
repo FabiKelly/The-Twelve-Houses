@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap');
+@font-face {
+    font-family: 'Alegreya SC';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/alegreyasc/v22/taiOGmRtCJ62-O0HhNEa-Z6i2ZAJaQ.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+  @font-face {
+    font-family: 'Alegreya SC';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/alegreyasc/v22/taiOGmRtCJ62-O0HhNEa-Z6r2ZAJaQ.woff2) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  body,html{
+    min-height: 100%;
+}
+body{
+    background-image: url(ambu.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    background-color: rgb(12, 10, 10);
+}#menu {
+    position: relative;
+    left: -213px;
+    top: 30%;
+    width: 200px;
+    box-shadow: 2px 2px 3px silver;
+    transition: all 200ms ease-out;
+    background-image: url(https://s2.glbimg.com/vLe6i4dsG51MJiaV9UK4mtwbVT0=/e.glbimg.com/og/ed/f/original/2018/10/24/eso1834a.jpg);
+  }
+  
+  body.menu-visivel > #menu {
+    left: 8%;
+    margin-top: 30%;
+  }
+  
+  
+  body.menu-visivel {
+    overflow-x: hidden;
+  }
+  
+  main {
+    position: absolute;
+    left: 600px;
+    top: 900px;
+    transition: left 200ms ease-out;
+    padding: 0.5em;
+  } 
+  #alterna-menu {
+    margin: 0 0.5em 0 0;
+    cursor: pointer;
+  }
+  
+  .hamburger {
+    display: inline-block;
+    height: 2em;
+    width: 2em;
+    border-radius: 3px;
+    border: 1px solid silver;
+    text-align: center;
+    line-height: 2em;
+    box-sizing: border-box;
+  }
+  
+  .hamburger:hover {
+    border-color: gray;
+  }
+
+  #menu > img {
+    max-width: 200px;
+  }
+ p{
+     color:aliceblue;
+    }

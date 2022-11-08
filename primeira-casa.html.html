@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Comandos</title>
+        <link rel="stylesheet" href="estilo-shun.css">
+        <link rel="icon" href="imgs/icone.png">
+    </head> 
+    <body>
+        <nav id="menu">
+            <img src="atena.jpg">
+            <p>Alguém  está se passando pelo Mestre do Santuario!</p>
+          </nav>
+          <main>
+              <span id="alterna-menu" class="hamburger"><span>☰</span></span>
+          </main>
+          <script>
+              let botaoEl = document.querySelector('#alterna-menu');
+let bodyEl = document.querySelector('body');
+
+function alternaMenu() {
+  bodyEl.classList.toggle('menu-visivel');
+}
+
+botaoEl.addEventListener('click', alternaMenu);
+          </script>
+    </body>
