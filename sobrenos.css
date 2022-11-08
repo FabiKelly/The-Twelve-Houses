@@ -1,3 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap');
+@font-face {
+    font-family: 'Alegreya SC';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/alegreyasc/v22/taiOGmRtCJ62-O0HhNEa-Z6i2ZAJaQ.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+  @font-face {
+    font-family: 'Alegreya SC';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/alegreyasc/v22/taiOGmRtCJ62-O0HhNEa-Z6r2ZAJaQ.woff2) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+
 body{
     background-image: url(https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2016/08/186628-universo.jpg);
     background-repeat: no-repeat;
@@ -7,49 +26,51 @@ body{
 html, body{
     min-height: 100%;
 }
+
 #principal{
     height: 50px;
 }
+
 h1{
     color: aliceblue;
     font-size: 300%;
-    margin: 0% 0% 0% 45%;
+    margin-left: 40%;
+    font-family: 'Alegreya SC', serif;
 
 }
 h2{
     color: aliceblue;
     font-size: 250%;
-    margin-left: 45%;
+    margin-left: 50%;
     text-shadow: 2px 2px black;
+    font-family: 'Alegreya SC', serif;
 }
 
-#l, #f{
-    width: 20%;
+#l, #f, #h{
+    height: 250px;
     border-radius: 50%;
+    border: 5px solid white;
+    margin-left: 50%;
+
+}
+
+#let, #fabi, #hil{
     border: 5px solid white;
 }
 
-#h{
-    margin-left: 80%;
-    width: 20%;
-    border-radius: 50%;
-    border: 5px solid white;
+#tudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
 }
 
 p{
     color: white;
-    float: right;
+    font-family: 'Alegreya SC', serif;
 }
 
-div{
-    blackground-color: white;
-    border: 5px solid white;
-    margin: 5%;
-    padding: 2%;
-    border-radius: 30%;
-    background-color: rgba(255, 255, 255, 0.20);
-    display: block;
-}    
+   
 
 @keyframes girando-de-costas{
     from{transform: rotateY(0);}
