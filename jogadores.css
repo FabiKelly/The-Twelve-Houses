@@ -9,10 +9,85 @@ body{
 html, body{
     min-height: 100%;
 }
-#personagens{
-    width: 20%;
-   height: 20%;
+.personagens{
+    width: 30%;
+   border: 5px solid yellow;}
+
+.personagens:hover,
+#loiro:hover{
+    transform: scale(1.1);
+     border: 5px solid red;
 }
-#hyoga{
-    width: 22.7%;
+
+#tudo{
+  padding-left: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 5%;
+}
+
+#tudao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ 
+}
+#shun{
+    width: 55%;
+   padding-left: 5%;
+ }
+ #personadiv{
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+
+ }
+ #linha3{
+    padding-left: 10%;
+    
+ }
+ #loiro{
+    width: 35%;
+    border: 5px solid yellow;
+ }
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap');
+@font-face {
+    font-family: 'Alegreya SC';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/alegreyasc/v22/taiOGmRtCJ62-O0HhNEa-Z6i2ZAJaQ.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+  h2{
+    color:aliceblue;   
+    font-family: 'Alegreya SC', serif;
+    font-size: 40px;
+   text-align: justify;
+}
+h1{
+    color:aliceblue;   
+    font-family: 'Alegreya SC', serif;
+    font-size: 300%;
+   text-align: center;
+ 
+}
+#botao{
+    margin-left: 15%;
+}
+button{
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    background-image: url(imgs/fundo-botao.jpg);
+    width: 50%;
+    border: 1px solid gray;
+    color: lightyellow;
+}
+button:hover{
+    transform: scale(1.1);
 }
