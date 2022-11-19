@@ -1,13 +1,17 @@
-
-
+html, body{
+    min-height: 100%;
+}
 body{
     background-image: url(https://www.mapadomeuceu.com.br/wp-content/uploads/2020/08/imagem-do-c%C3%A9u-noturno-representando-a-constela%C3%A7%C3%A3o-de-touro.jpg);
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;    
 }
-html, body{
-    min-height: 100%;
+#home{
+    height: 50px;
+    position: fixed; 
+    left: 0;
+    top: 0;
 }
 .personagens{
     width: 30%;
@@ -45,11 +49,11 @@ html, body{
 
  }
  #linha3{
-    padding-left: 10%;
+    padding-left: 15%;
     
  }
  #loiro{
-    width: 35%;
+    width: 40%;
     border: 5px solid yellow;
  }
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap');
@@ -60,8 +64,8 @@ html, body{
     font-display: swap;
     src: url(https://fonts.gstatic.com/s/alegreyasc/v22/taiOGmRtCJ62-O0HhNEa-Z6i2ZAJaQ.woff2) format('woff2');
     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-  }
-  h2{
+}
+h2{
     color:aliceblue;   
     font-family: 'Alegreya SC', serif;
     font-size: 40px;
