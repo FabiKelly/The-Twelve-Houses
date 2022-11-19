@@ -34,7 +34,7 @@ a{
   padding-top: 5%;
 }
 
-#tudao{
+main{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
