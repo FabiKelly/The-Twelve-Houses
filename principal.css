@@ -38,6 +38,7 @@ a {
 
 .botoes:hover {
     color: goldenrod;
+    transform: scale(1.1);
 }
 
 .modal {
