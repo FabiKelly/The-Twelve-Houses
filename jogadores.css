@@ -4,7 +4,6 @@ html, body{
 body{
     background-image: url(https://www.mapadomeuceu.com.br/wp-content/uploads/2020/08/imagem-do-c%C3%A9u-noturno-representando-a-constela%C3%A7%C3%A3o-de-touro.jpg);
     background-repeat: no-repeat;
-    background-position: 50%;
     background-size: cover;    
 }
 #home{
@@ -49,11 +48,11 @@ body{
 
  }
  #linha3{
-    padding-left: 20%;
+    padding-left: 25%;
     
  }
  #loiro{
-    width: 40%;
+    width: 50%;
     border: 5px solid yellow;
  }
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap');
@@ -65,12 +64,6 @@ body{
     src: url(https://fonts.gstatic.com/s/alegreyasc/v22/taiOGmRtCJ62-O0HhNEa-Z6i2ZAJaQ.woff2) format('woff2');
     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
-h2{
-    color:aliceblue;   
-    font-family: 'Alegreya SC', serif;
-    font-size: 40px;
-    text-align: justify;
-}
 h1{
     color:aliceblue;   
     font-family: 'Alegreya SC', serif;
@@ -78,13 +71,20 @@ h1{
     text-align: center;
  
 }
+h2{
+    color:aliceblue;   
+    font-family: 'Alegreya SC', serif;
+    font-size: 40px;
+    text-align: justify;
+}
 #botao{
     margin-left: 15%;
+    margin-top: 5%
 }
 button{
     text-align: center;
     border-radius: 20px;
-    padding: 30px;
+    padding: 10px;
     font-size: 20px;
     cursor: pointer;
     background-image: url(imgs/fundo-botao.jpg);
@@ -94,4 +94,5 @@ button{
 }
 button:hover{
     transform: scale(1.1);
+    color: goldenrod;
 }
