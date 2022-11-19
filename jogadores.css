@@ -11,7 +11,7 @@ a{
     text-decoration: none;
 }
 a:hover{
-    goldenrod
+    color: goldenrod;
 }
 #home{
     height: 50px;
