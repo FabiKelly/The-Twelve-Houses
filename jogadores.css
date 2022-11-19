@@ -6,6 +6,10 @@ body{
     background-repeat: no-repeat;
     background-size: cover;    
 }
+a{
+    color: lightyellow;
+    text-decoration: none;
+}
 #home{
     height: 50px;
     position: fixed; 
@@ -16,7 +20,7 @@ body{
     width: 30%;
     border: 5px solid yellow;}
 
-.personagens:hover,
+.personagens:hover, 
 #loiro:hover{
     transform: scale(1.1);
     border: 5px solid red;
@@ -48,11 +52,10 @@ body{
 
  }
  #linha3{
-    padding-left: 25%;
-    
+    padding-left: 20%;
  }
  #loiro{
-    width: 50%;
+    width: 40%;
     border: 5px solid yellow;
  }
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap');
@@ -84,13 +87,12 @@ h2{
 button{
     text-align: center;
     border-radius: 20px;
-    padding: 10px;
+    padding: 20px;
     font-size: 20px;
     cursor: pointer;
     background-image: url(imgs/fundo-botao.jpg);
     width: 50%;
     border: 1px solid gray;
-    color: lightyellow;
 }
 button:hover{
     transform: scale(1.1);
