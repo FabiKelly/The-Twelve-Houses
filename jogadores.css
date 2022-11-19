@@ -11,12 +11,12 @@ html, body{
 }
 .personagens{
     width: 30%;
-   border: 5px solid yellow;}
+    border: 5px solid yellow;}
 
 .personagens:hover,
 #loiro:hover{
     transform: scale(1.1);
-     border: 5px solid red;
+    border: 5px solid red;
 }
 
 #tudo{
@@ -35,7 +35,7 @@ html, body{
 }
 #shun{
     width: 55%;
-   padding-left: 5%;
+    padding-left: 5%;
  }
  #personadiv{
     padding-left: 5%;
@@ -65,13 +65,13 @@ html, body{
     color:aliceblue;   
     font-family: 'Alegreya SC', serif;
     font-size: 40px;
-   text-align: justify;
+    text-align: justify;
 }
 h1{
     color:aliceblue;   
     font-family: 'Alegreya SC', serif;
     font-size: 300%;
-   text-align: center;
+    text-align: center;
  
 }
 #botao{
