@@ -10,6 +10,9 @@ a{
     color: lightyellow;
     text-decoration: none;
 }
+a:hover{
+    color: goldenrod;
+}
 #home{
     height: 50px;
     position: fixed; 
@@ -72,7 +75,6 @@ h1{
     font-family: 'Alegreya SC', serif;
     font-size: 300%;
     text-align: center;
- 
 }
 h2{
     color:aliceblue;   
@@ -83,9 +85,6 @@ h2{
 #botao{
     margin-left: 15%;
     margin-top: 5%
-}
-#botao:hover{
-    color: goldenrod;
 }
 button{
     text-align: center;
