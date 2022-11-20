@@ -3,12 +3,124 @@ html, body {
 }
 
 body {
-    background-image: url(imgs-jogo/fundo-jogo.jpg);
+    background-image: url(imgs-jogo/fundo-jogo.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left bottom;
+    background-size: 100% 100%;
 }
 
 #principal{
     height: 50px;
+    position: fixed;
+    cursor: pointer;
+}
+
+a {
+    display: flex;
+}
+
+.transparente {
+    border: 8px solid goldenrod;
+    border-radius: 5%;
+}
+
+.transparente:hover {
+    border-color: red;
+}
+
+#transparente1 {
+    height: 39px;
+    width: 70px;
+    margin-left: 84.2%;
+    margin-top: 2px;
+}
+
+#transparente2 {
+    height: 39px;
+    width: 85px;
+    margin-left: 45.3%;
+    margin-top: -6px;
+}
+
+#transparente3 {
+    height: 41px;
+    width: 77px;
+    margin-left: 27.45%;
+    margin-top: 0;
+}
+
+#transparente4 {
+    height: 39px;
+    width: 78px;
+    margin-left: 10.9%;
+    margin-top: 4%;
+}
+
+#transparente5 {
+    height: 39px;
+    width: 69px;
+    margin-left: 23.3%;
+    margin-top: -35px;
+}
+
+#transparente6 {
+    height: 39px;
+    width: 70px;
+    margin-left: 36.3%;
+    margin-top: 9.1%;
+}
+
+#transparente7 {
+    height: 39px;
+    width: 70px;
+    margin-left: 57.9%;
+    margin-top: -42px;
+}
+
+#transparente8 {
+    height: 37px;
+    width: 100px;
+    margin-left: 68%;
+    margin-top: -30px;
+}
+
+#transparente9 {
+    height: 39px;
+    width: 139px;
+    margin-left: 82%;
+    margin-top: -59px;
+}
+
+#transparente10 {
+    height: 39px;
+    width: 124px;
+    margin-left: 74.6%;
+    margin-top: -35px;
+}
+
+#transparente11 {
+    height: 39px;
+    width: 107px;
+    margin-left: 59%;
+    margin-top: -30px;    
+}
+
+#transparente12 {
+    height: 40px;
+    width: 69px;
+    margin-left: 47.3%;
+    margin-top: 6.6%;
+}
+
+#transparente13 {
+    height: 24px;
+    width: 92px;
+    margin-left: 21.2%;
+    margin-top: -34px;
+}
+
+#transparente14 {
+    height: 25px;
+    width: 108px;
+    margin-left: 4.5%;
+    margin-top: -16px
 }
