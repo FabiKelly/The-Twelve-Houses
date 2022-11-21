@@ -23,8 +23,8 @@ a:hover{
     width: 30%;
     border: 5px solid yellow;}
 
-.personagens:hover, 
-#loiro:hover{
+.personagens:hover
+{
     transform: scale(1.1);
     border: 5px solid red;
 }
@@ -43,7 +43,7 @@ a:hover{
     justify-content: space-around;
  
 }
-#shun{
+.shun{
     width: 55%;
     padding-left: 5%;
  }
@@ -57,9 +57,8 @@ a:hover{
  #linha3{
     padding-left: 15%;
  }
- #loiro{
+#hyoga{
     width: 40%;
-    border: 5px solid yellow;
  }
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap');
 @font-face {
@@ -76,7 +75,7 @@ h1{
     font-size: 300%;
     text-align: center;
 }
-h2{
+#nome{
     color:aliceblue;   
     font-family: 'Alegreya SC', serif;
     font-size: 40px;
@@ -99,3 +98,4 @@ button{
 button:hover{
     transform: scale(1.1);
 }
+
