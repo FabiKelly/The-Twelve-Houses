@@ -7,7 +7,8 @@
     src: url(https://fonts.gstatic.com/s/alegreyasc/v22/taiOGmRtCJ62-O0HhNEa-Z6i2ZAJaQ.woff2) format('woff2');
     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
-html, body{    min-height: 100%;
+html, body{    
+    min-height: 100%;
 }
 body{
     background-image: url(https://www.mapadomeuceu.com.br/wp-content/uploads/2020/08/imagem-do-c%C3%A9u-noturno-representando-a-constela%C3%A7%C3%A3o-de-touro.jpg);
