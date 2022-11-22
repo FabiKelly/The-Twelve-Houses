@@ -11,16 +11,16 @@ body {
 #principal{
     height: 50px;
     position: fixed;
-    cursor: pointer;
 }
 
 a {
-    display: flex;
+    display: inline-block;
+    
 }
 
 .transparente {
     border: 8px solid goldenrod;
-    border-radius: 5%;
+    border-radius: 5%;position: absolute;
 }
 
 .transparente:hover {
@@ -28,10 +28,10 @@ a {
 }
 
 #transparente1 {
-    height: 39px;
-    width: 70px;
-    margin-left: 84.2%;
-    margin-top: 2px;
+    height: 50px;
+    width: 97px;
+    left: 83.9%;
+    top: 89.3%;
 }
 
 #transparente2 {
