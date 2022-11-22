@@ -1,0 +1,9 @@
+html, body {
+    min-height: 100%;
+}
+
+body {
+    background-image: url(imgs-jogo/casaDeLibra.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
