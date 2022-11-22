@@ -15,12 +15,14 @@ body {
 
 a {
     display: inline-block;
-    
+    color: black;
+    text-decoration: none;    
 }
 
 .transparente {
     border: 8px solid goldenrod;
-    border-radius: 5%;position: absolute;
+    border-radius: 5%;
+    position: absolute;
 }
 
 .transparente:hover {
