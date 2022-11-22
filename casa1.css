@@ -20,23 +20,11 @@
     min-height: 100%;
 }
 body{
-    background-image: url(ambu.png);
+    background-image: url(imgs-jogo/casaDeAries.jpg);
     background-repeat: no-repeat;
     background-position: left top;
     background-size: cover;
 }
-img{
-  height: 200px;
-}
-#cena2, #cena4, #cena6, #cena8, #cena10{
-  position: absolute;
-  right: -210%;
-  
-}
-#cena3, #cena5, #cena7, #cena9, #cena11{
-  position: absolute;
-  left: -210%;
-}
-#cena1{
-  margin-top: 10%;
+#meio{
+    border-top: 3px;
 }
