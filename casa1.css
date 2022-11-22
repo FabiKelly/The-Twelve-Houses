@@ -44,3 +44,9 @@ p{
 #centro{
     margin-left: 40%;
 }
+#home{
+    height: 50px;
+    position: fixed; 
+    left: 0;
+    top: 0;
+}
