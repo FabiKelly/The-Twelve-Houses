@@ -124,3 +124,23 @@ a {
     margin-left: 4.5%;
     margin-top: -16px
 }
+
+#botao {
+    background-image: url(imgs/fundo-botao.jpg);
+    margin-top: 50%;
+    margin-left: 5%;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 20px;
+    color: lightyellow;
+    display: grid;
+    font-size: 20px;
+    width: 20%;
+    cursor: pointer;
+}
+
+#botao:hover {
+    color: goldenrod;
+    transform: scale(1.1);
+}
