@@ -34,15 +34,13 @@ shiryuEl.addEventListener('mouseover', function(){
   ikkiEl.addEventListener('mouseover', function(){
     ikkiEl.addEventListener('click', function(){
       clicou = true;
-    })
      imagemEl.src = 'https://vignette.wikia.nocookie.net/doblaje/images/a/ab/IkkiFenixSaintSeiya02.png/revision/latest?cb=20190728200313&path-prefix=es';
-     nomeEl.innerHTML = 'Ikki de Fênix'; });
+     nomeEl.innerHTML = 'Ikki de Fênix'; })});
   
 
   seiyaEl.addEventListener('mouseover', function(){
     seiyaEl.addEventListener('click', function(){
       clicou = true;
-    })
     imagemEl.src = 'https://2.bp.blogspot.com/_hFLq0zR_I8g/TPv-leSLhyI/AAAAAAAAD4Y/EFHBeP_000E/s1600/Seiya_III.png';
     nomeEl.innerHTML = 'Seiya de Pégaso'; 
-});
+})});
