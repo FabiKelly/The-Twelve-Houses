@@ -8,6 +8,29 @@
     <link rel="icon" href="imgs/icone.png">
   </head>
   <body>
+  <div style="position: relative;">
+        <div style="position: absolute; display:flex; width:100%; align-items:center; padding: 20px;">
 
+          <div style="position: relative; height: 50px; width:100%; display: flex; justify-content: flex-end;">
+            <div  style="background-color: rgb(224, 69, 69); height: 50px; width: 100%;"></div>
+            <div id="vida-player" style="position:absolute; background: rgb(24, 201, 77); top:0; right: 0; bottom: 0; width: 100%;"></div>
+            </div>
+
+        
+        <div id="tempo" style="background-color: rgb(160, 86, 148); height: 100px; width:100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">100</div>
+
+        <div style="position: relative; height: 50px; width:100%">
+        <div  style="background-color: rgb(224, 69, 69); height: 50px;"></div>
+        <div id="vida-ini" style="position:absolute; background: rgb(24, 201, 77); top:0; right: 0; bottom: 0; left: 0;"></div>
+        </div>
+        <div></div>
+    </div>
+      <div id="resultado" style="position:absolute; color:aliceblue; display: flex; align-items: center; justify-content: center;
+      top: 0; right: 0; bottom: 0; left: 0; display: none;">?</div>
+    <canvas id="meuCanvas"></canvas>
+    </div>
+
+        <script src="javinha-casa5.js"></script>
+        
   </body>
 </html>
