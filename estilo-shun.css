@@ -6,32 +6,33 @@
     font-display: swap;
     src: url(https://fonts.gstatic.com/s/alegreyasc/v22/taiOGmRtCJ62-O0HhNEa-Z6i2ZAJaQ.woff2) format('woff2');
     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-}
-@font-face {
+  }
+  @font-face {
     font-family: 'Alegreya SC';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
     src: url(https://fonts.gstatic.com/s/alegreyasc/v22/taiOGmRtCJ62-O0HhNEa-Z6r2ZAJaQ.woff2) format('woff2');
     unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
+  }
 body,html{
     min-height: 100%;
 }
 body{
     background-image: url(imgs/andromeda.webp);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-position: left top;
+    background-size: cover;
 }
-#principal{
-    height: 30px;
-    position: fixed;
+
+#principal {
+    height: 50px;
 }
+
 #imagem-cav{
-    height: 550px;
-    width: 350px;
+    height: 600px;
     float: left;
-    margin-left: 20%;
+    margin-left: 11%;
 }
 h1,p{
     color:aliceblue;   
@@ -42,13 +43,13 @@ p{
 }
 h1{
     font-size: 55px;
-    float: left;
     margin-left: 5%;
 }
 #tabela{
-    height: 550px;
-    margin-left: 5%;
+    height: 600px;
+    margin-left: 10%;
     margin-top: -13%;
+
 }
 #descricao{
     text-align: center;
@@ -87,19 +88,25 @@ h1{
     height: 300px;
     margin-top: -17%;
     margin-left: 4%;
+    
+}
+#seta-esquerda{
+    height: 90px;
+    margin-top: -12%;
+    margin-left: 20%;
 }
 #seta-direita{
     height: 70px;
     margin-left: 20%;
     margin-top: -10%;
+
 }
 #andar{
     margin-top: -22%;
     margin-left: 40%;
 }
 #prox{
-    position: fixed;
-    right: 0;
+    position: fixed; right: 0;
     top: 450px;
     height: 3%;
     width: 2%;
@@ -108,15 +115,28 @@ a:link{
     text-decoration: none;
 }
 #esquerda{
+    display: flex;
+    flex-direction: column; 
+    align-content: stretch;
+    justify-content: flex-start;
+}
+#direita{
+    display: flex;
+    flex-direction: column; 
+    align-content: stretch;
+}
+#esquerda{
+    display: flex;
     flex-direction: column;
     gap: 5px;
 }
-.direita{
-    flex-direction: column;
-    margin-left: -10%;
-}
 #tudo{
     display: flex;
+    justify-content: space-around;
+}
+#direita{
+    display: flex;
+    flex-direction: column;
 }
 #mover{
     display: flex;
@@ -125,4 +145,8 @@ a:link{
 #centro{
     display: flex;
     flex-direction: row;
+}
+#principal{
+    height: 30px;
+    position: fixed; left: 0px;
 }
