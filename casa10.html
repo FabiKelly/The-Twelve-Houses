@@ -1,70 +1,155 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Décima Casa</title>
-    <link rel="stylesheet" href="casa10.css">
-    <link rel="icon" href="imgs/icone.png">
-    <style>
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap');
-@font-face {
-  font-family: 'Alegreya SC';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/alegreyasc/v22/taiOGmRtCJ62-O0HhNEa-Z6i2ZAJaQ.woff2) format('woff2');
-  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-}
-@font-face {
-  font-family: 'Alegreya SC';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/alegreyasc/v22/taiOGmRtCJ62-O0HhNEa-Z6r2ZAJaQ.woff2) format('woff2');
-  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
-#meuCanvas {
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Casa de Capricórnio</title>
+  <link rel="icon" href="imgs/icone.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap');
+    @font-face {
+      font-family: 'Alegreya SC';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/alegreyasc/v22/taiOGmRtCJ62-O0HhNEa-Z6i2ZAJaQ.woff2) format('woff2');
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    }
+    @font-face {
+      font-family: 'Alegreya SC';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/alegreyasc/v22/taiOGmRtCJ62-O0HhNEa-Z6r2ZAJaQ.woff2) format('woff2');
+      unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
 
-  width: 100%;
-  height: 90%;
- border: 0;
+    * {
+      box-sizing: border-box;
+      font-family: 'Alegreya SC';
+      font-size: 60px;
+    }
 
-}
-*{
-    box-sizing: border-box;
-    font-family: 'Alegreya SC';
-    font-size: 60px;
-}
-html, body{
-  margin:0;
-}
-</style>
-  </head>
-  <body>
-  <div style="position: relative;">
-        <div style="position: absolute; display:flex; width:100%; align-items:center; padding: 20px;">
+    #meuCanvas {
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
 
-          <div style="position: relative; height: 50px; width:100%; display: flex; justify-content: flex-end;">
-            <div  style="background-color: rgb(224, 69, 69); height: 50px; width: 100%;"></div>
-            <div id="vida-player" style="position:absolute; background: rgb(24, 201, 77); top:0; right: 0; bottom: 0; width: 100%;"></div>
-            </div>
+    html, body {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <div style="position: relative">
+    
+    <div
+      style="
+        position: absolute;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        padding: 20px;
+      "
+    >
+      <!-- vida do cav. de bronze -->
+      <div
+        style="
+          position: relative;
+          width: 100%;
+          display: flex;
+          justify-content: flex-end;
+          border-top: 4px solid white;
+          border-left: 4px solid white;
+          border-bottom: 4px solid white;
+        "
+      >
+        <div style="background-color: red; height: 30px; width: 100%"></div>
+        <div
+          id="vida-player"
+          style="
+            position: absolute;
+            background: rgb(101, 201, 101);
+            top: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+          "
+        ></div>
+      </div>
 
-        
-        <div id="tempo" style="background-color: rgb(160, 86, 148); height: 100px; width:100px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">100</div>
-
-        <div style="position: relative; height: 50px; width:100%">
-        <div  style="background-color: rgb(224, 69, 69); height: 50px;"></div>
-        <div id="vida-ini" style="position:absolute; background: rgb(24, 201, 77); top:0; right: 0; bottom: 0; left: 0;"></div>
-        </div>
-        <div></div>
+      <!-- tempo -->
+      <div
+        id="tempo"
+        style="
+          background-color: black;
+          width: 90px;
+          height: 70px;
+          flex-shrink: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: white;
+          border: 4px solid white;
+        "
+      >
+      </div>
+      <!-- vida do cav. de ouro -->
+      <div
+        style="
+          position: relative;
+          width: 100%;
+          border-top: 4px solid white;
+          border-bottom: 4px solid white;
+          border-right: 4px solid white;
+        "
+      >
+        <div style="background-color: red; height: 30px"></div>
+        <div
+          id="vida-ini"
+          style="
+            position: absolute;
+            background: rgb(101, 201, 101);
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+          "
+        ></div>
+      </div>
+      <div></div>
     </div>
-      <div id="resultado" style="position:absolute; color:aliceblue; display: flex; align-items: center; justify-content: center;
-      top: 0; right: 0; bottom: 0; left: 0; display: none;">?</div>
+    <div
+      id="resultado"
+      style="
+        position: absolute;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: none;
+      "
+    >
+      ?
+    </div>
     <canvas id="meuCanvas"></canvas>
-    </div>
+  </div>
 
-        <script src="javinha-casa10.js"></script>
-        
-  </body>
-</html>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+    integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script src="js/utils.js"></script>
+  <script src="js/classes.js"></script>
+  <script src="javinha-casa10.js"></script>
+</body>
