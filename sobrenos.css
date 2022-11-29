@@ -55,18 +55,23 @@ h2{
     border-radius: 50%;
     border: 5px solid white;
     display: inline-block;
+    
 }
 
 #let, #fabi, #hil{
     border: 5px solid white;
     border-radius: 30px;
-    padding: 20px;
+    padding-top: 2%;
+    padding-left: 7%;
+    padding-right: 5%;
+    padding-bottom: 2%;
     background-color: rgba(255, 255, 255, 0.50);
 }
 
 #tudo{
+    
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 p{
