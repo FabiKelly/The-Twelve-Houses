@@ -29,7 +29,7 @@ const player = new Fighter({
     x: 0,
     y: 0
   },
-  imageSrc: './imgs-jogo/bronze/SeParado.png',
+  imageSrc: 'imgs-jogo/bronze/SeParado.png',
   framesMax: 4,
   scale: 2.5,
   offset: {
@@ -38,31 +38,31 @@ const player = new Fighter({
   },
   sprites: {
     idle: {
-      imageSrc: './imgs-jogo/bronze/SeParado.png',
+      imageSrc: 'imgs-jogo/bronze/SeParado.png',
       framesMax: 4
     },
     run: {
-      imageSrc: './img/bronze/SeCorre.png',
+      imageSrc: 'imgs-jogo/bronze/SeCorre.png',
       framesMax: 8
     },
     jump: {
-      imageSrc: './img/bronze/SePula.png',
+      imageSrc: 'imgs-jogo/bronze/SePula.png',
       framesMax: 2
     },
     fall: {
-      imageSrc: './img/bronze/SeCai.png',
+      imageSrc: 'imgs-jogo/bronze/SeCai.png',
       framesMax: 2
     },
     attack1: {
-      imageSrc: './img/bronze/SeAtaque1.png',
+      imageSrc: 'imgs-jogo/bronze/SeAtaque1.png',
       framesMax: 23
     },
     takeHit: {
-      imageSrc: './img/bronze/SeAtacado.png',
+      imageSrc: 'imgs-jogo/bronze/SeAtacado.png',
       framesMax: 4
     },
     death: {
-      imageSrc: './img/bronze/SePerde.png',
+      imageSrc: 'imgs-jogo/bronze/SePerde.png',
       framesMax: 4
     }
   },
@@ -90,7 +90,7 @@ const ini = new Fighter({
     x: -50,
     y: 0
   },
-  imageSrc: './img/ouro/TParado.png',
+  imageSrc: 'imgs-jogo/ouro/TParado.png',
   framesMax: 3,
   scale: 2.5,
   offset: {
@@ -99,31 +99,31 @@ const ini = new Fighter({
   },
   sprites: {
     idle: {
-      imageSrc: './img/ouro/TParado.png',
+      imageSrc: 'imgs-jogo/ouro/TParado.png',
       framesMax: 3
     },
     run: {
-      imageSrc: './img/ouro/TCorre.png',
+      imageSrc: 'imgs-jogo/ouro/TCorre.png',
       framesMax: 8
     },
     jump: {
-      imageSrc: './img/ouro/TPula.png',
+      imageSrc: 'imgs-jogo/ouro/TPula.png',
       framesMax: 2
     },
     fall: {
-      imageSrc: './img/ouro/TCai.png',
+      imageSrc: 'imgs-jogo/ouro/TCai.png',
       framesMax: 2
     },
     attack1: {
-      imageSrc: './img/ouro/TAtaque1.png',
+      imageSrc: 'imgs-jogo/ouro/TAtaque1.png',
       framesMax: 1
     },
     takeHit: {
-      imageSrc: './img/ouro/TAtacado.png',
+      imageSrc: 'imgs-jogo/ouro/TAtacado.png',
       framesMax: 3
     },
     death: {
-      imageSrc: './img/ouro/TPerde.png',
+      imageSrc: 'imgs-jogo/ouro/TPerde.png',
       framesMax: 2
     }
   },
