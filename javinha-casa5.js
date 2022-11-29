@@ -31,7 +31,7 @@ const player = new Fighter({
   },
   imageSrc: 'imgs-jogo/bronze/SeParado.png',
   framesMax: 4,
-  scale: 2.5,
+  scale: 1.0,
   offset: {
     x: -50,
     y: 157
@@ -92,7 +92,7 @@ const ini = new Fighter({
   },
   imageSrc: 'imgs-jogo/ouro/LParado.png',
   framesMax: 4,
-  scale: 2.5,
+  scale: 1.0,
   offset: {
     x: -50,
     y: 167
