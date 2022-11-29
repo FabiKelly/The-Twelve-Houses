@@ -31,101 +31,96 @@ a {
 
 #transparente1 {
     height: 50px;
-    width: 97px;
+    width: 100px;
     left: 83.9%;
     top: 89.3%;
 }
 
 #transparente2 {
-    height: 39px;
-    width: 85px;
+    height: 55px;
+    width: 125px;
     left: 45.3%;
     top: 81.5%;
 }
 
 #transparente3 {
-    height: 41px;
-    width: 77px;
+    height: 63px;
+    width: 120px;
     left: 27.6%;
     top: 75%;
 }
 
 #transparente4 {
-    height: 39px;
-    width: 78px;
+    height: 50px;
+    width: 120px;
     left: 11.3%;
     top: 68%;
 }
 
 #transparente5 {
-    height: 39px;
-    width: 69px;
+    height: 48px;
+    width: 100px;
     left: 23.5%;
     top: 52%;
 }
 
 #transparente6 {
-    height: 39px;
-    width: 68px;
+    height: 49px;
+    width: 100px;
     left: 36.5%;
     top: 46.25%;
 }
 
 #transparente7 {
-    height: 39px;
-    width: 70px;
+    height: 52px;
+    width: 110px;
     left: 57.8%;
     top: 53.5%;
 }
 
 #transparente8 {
-    height: 37px;
-    width: 100px;
+    height: 49px;
+    width: 140px;
     left: 67.8%;
     top: 49.4%;
 }
 
 #transparente9 {
-    height: 39px;
-    width: 139px;
+    height: 51px;
+    width: 196px;
     left: 81.6%;
     top: 45.7%;
 }
 
 #transparente10 {
-    height: 39px;
-    width: 124px;
+    height: 50px;
+    width: 176px;
     left: 74.4%;
     top: 18.8%;
 }
 
 #transparente11 {
-    height: 39px;
-    width: 107px;
+    height: 53px;
+    width: 160px;
     left: 58.9%;
     top: 16.2%;    
 }
 
 #transparente12 {
-    height: 40px;
-    width: 69px;
+    height: 50px;
+    width: 100px;
     left: 47.3%;
     top: 13%;
 }
 
 #transparente13 {
-    height: 24px;
-    width: 92px;
+    height: 34px;
+    width: 131px;
     left: 21.5%;
     top: 24.8%;
 }
 
-#transparente14 {
-    height: 25px;
-    width: 108px;
-    left: 5%;
-    top: 24%;
-}
+
 
 #botao {
     background-image: url(imgs/fundo-botao.jpg);
