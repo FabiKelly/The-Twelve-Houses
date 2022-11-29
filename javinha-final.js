@@ -107,7 +107,7 @@ const ini = new Fighter({
       framesMax: 8
     },
     jump: {
-      imageSrc: 'imgs-jogo/ouro/GPula.png',
+      imageSrc: 'imgs-jogo/ouro/20221129_195848_0000.png',
       framesMax: 2
     },
     fall: {
