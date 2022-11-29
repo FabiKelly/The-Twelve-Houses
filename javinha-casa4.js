@@ -50,7 +50,7 @@ const player = new Fighter({
       framesMax: 2
     },
     fall: {
-      imageSrc: 'imgs-jogo/bronze/ShiCai.png',
+      imageSrc: 'imgs-jogo/bronze/20221129_194251_0000.png',
       framesMax: 2
     },
     attack1: {
