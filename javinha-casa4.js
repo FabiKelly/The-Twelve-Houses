@@ -124,7 +124,7 @@ const ini = new Fighter({
     },
     death: {
       imageSrc: 'imgs-jogo/ouro/CanPerde.png',
-      framesMax: 3
+      framesMax: 4
     }
   },
   ataqueBox: {
