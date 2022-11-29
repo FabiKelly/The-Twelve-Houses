@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap');
+@font-face {
+    font-family: 'Alegreya SC';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/alegreyasc/v22/taiOGmRtCJ62-O0HhNEa-Z6i2ZAJaQ.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+  @font-face {
+    font-family: 'Alegreya SC';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/alegreyasc/v22/taiOGmRtCJ62-O0HhNEa-Z6r2ZAJaQ.woff2) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  body,html{
+    min-height: 100%;
+}
+
+#touro{
+    background-image: url(https://vignette.wikia.nocookie.net/ssu/images/b/b3/Constela%C3%A7%C3%A3o_Touro_SG.png/revision/latest?cb=20180108103708);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100% 100%;
+}
+#gemeos{
+    background-image: url(https://vignette.wikia.nocookie.net/ssu/images/2/2f/Constela%C3%A7%C3%A3o_G%C3%AAmeos_SG.png/revision/latest?cb=20180110030111);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100% 100%;
+}
+#cancer{
+    background-image: url(https://vignette.wikia.nocookie.net/ssu/images/c/c0/Constela%C3%A7%C3%A3o_C%C3%A2ncer_SG.png/revision/latest?cb=20180109051249);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100% 100%;
+}
+#leao{
+    background-image: url(https://th.bing.com/th/id/R.9405b0f999ea91a45ef09768b5284f3b?rik=NfOS4uf6VPltOg&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+}
+#virgem{
+    background-image: url(https://vignette.wikia.nocookie.net/ssu/images/c/c2/Constela%C3%A7%C3%A3o_Virgem_SG.png/revision/latest?cb=20180110010341);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100% 100%;
+}
+#escorpiao{
+    background-image: url(https://vignette.wikia.nocookie.net/ssu/images/e/ea/Constela%C3%A7%C3%A3o_Escorpi%C3%A3o_SG.png/revision/latest?cb=20180109043604);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100% 100%;
+}
+#capricornio{
+    background-image: url(https://vignette.wikia.nocookie.net/ssu/images/f/f0/Constela%C3%A7%C3%A3o_Capric%C3%B3rnio_SG.png/revision/latest?cb=20180109130305);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100% 100%;
+}
+#aquario{
+    background-image: url(https://vignette.wikia.nocookie.net/ssu/images/b/b1/Constela%C3%A7%C3%A3o_Aqu%C3%A1rio_SG.png/revision/latest?cb=20180109043838);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100% 100%;
+}
+#peixes{
+    background-image: url(https://th.bing.com/th/id/OIP.iW8y637MpIJ6OjSINW4BNQHaEK?pid=ImgDet&rs=1);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100% 100%;   
+}
+#principal{
+    height: 30px;
+    position: fixed; left: 0px;
+
+}
+#imagem-cav{
+    height: 550px;
+    width: 500px;
+    margin-left: 5%;
+}
+#tec{
+    margin-top: -7px;
+}
+h1,p{
+    color:aliceblue;   
+    font-family: 'Alegreya SC', serif;
+}
+p{
+    font-size: 19px;
+}
+h1{
+    font-size: 55px;
+    margin-left: 5%;
+}
+#tabela{
+    height: 600px;
+    margin-left: 10%;
+    margin-top: -13%;
+    margin-right: 0%;
+
+}
+#descricao{
+    text-align: center;
+    margin-left: 27%;
+    margin-right: 15%; 
+    margin-top: 14%;
+}
+#hab{
+    margin-left: 28%;
+    margin-top: -12%;
+    margin-right: 21%;
+    text-align: center;
+}
+#defesa{
+    margin-left: 50%;
+    margin-top: 1%;
+}
+#asdw{
+    height: 140px;
+    
+    margin-left: 43%;
+    margin-top: -2%;
+}
+#soco{
+    margin-left: 62%;
+    margin-top: -6%;
+}
+#Chute{
+    margin-top: -4%;
+    margin-left: 38%;
+}
+#tec{
+    margin-left: 46.5%;
+    margin-top: 2%;
+}
+#barra{
+    height: 300px;
+    margin-top: -17%;
+    margin-left: 4%;
+    
+}
+#seta-esquerda{
+    height: 90px;
+    margin-top: -12%;
+    margin-left: 20%;
+}
+#seta-direita{
+    height: 70px;
+    margin-left: 20%;
+    margin-top: -10%;
+}
+#andar{
+    margin-top: -22%;
+    margin-left: 40%;
+}
+#prox{
+    position: fixed; right: 0;
+    top: 450px;
+    height: 3%;
+    width: 2%;
+}
+
+#ant{
+    position: fixed; left: 0;
+    top: 450px;
+    height: 3%;
+    width: 2%;
+}
+#esquerda{
+    display: flex;
+    flex-direction: column; 
+    align-content: stretch;
+    justify-content: flex-start;
+}
+#direita{
+    display: flex;
+    flex-direction: column; 
+    align-content: stretch;
+}
+#esquerda{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#tudo{
+    display: flex;
+    justify-content: space-around;
+}
+#direita{
+    display: flex;
+    flex-direction: column;
+}
+#mover{
+    display: flex;
+    flex-direction: row;
+}
+#centro{
+    display: flex;
+    flex-direction: row;
+}
