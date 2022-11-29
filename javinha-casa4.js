@@ -13,7 +13,7 @@ const background = new Sprite({
     x: 0,
     y: 0
   },
-  imageSrc: 'imgs-jogo/casaDeCancer.png'
+  imageSrc: 'imgs-jogo/ecancer.png'
 })
 
 const player = new Fighter({
