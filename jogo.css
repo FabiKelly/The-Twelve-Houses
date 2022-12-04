@@ -16,7 +16,8 @@ body {
 a {
     display: inline-block;
     color: lightyellow;
-    text-decoration: none;    
+    text-decoration: none;
+    visited: green;
 }
 
 .transparente {
