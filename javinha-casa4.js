@@ -30,7 +30,7 @@ const player = new Fighter({
     y: 0
   },
   imageSrc: 'imgs-jogo/bronze/ShiParado.png',
-  framesMax: 2,
+framesMax: 8,
   scale: 2.3,
   offset: {
     x: -50,
@@ -78,7 +78,7 @@ const player = new Fighter({
 
 const ini = new Fighter({
   position: {
-    x: 0,
+    x: 800,
     y: 100
   },
   velocidade: {
@@ -87,15 +87,15 @@ const ini = new Fighter({
   },
   color: 'blue',
   offset: {
-    x: 0,
+    x: -50,
     y: 0
   },
   imageSrc: 'imgs-jogo/ouro/CanParado.png',
-  framesMax: 3,
-  scale: 2.5,
+  framesMax: 4,
+  scale: 2.3,
   offset: {
-    x: -50,
-    y: 167
+    x: 0,
+    y: 13
   },
   sprites: {
     idle: {
