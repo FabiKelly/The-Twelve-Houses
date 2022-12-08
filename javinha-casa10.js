@@ -31,10 +31,10 @@ const player = new Fighter({
   },
   imageSrc: 'imgs-jogo/bronze/ShiParado.png',
   framesMax: 2,
-  scale: 2.5,
-  offset: {
+  scale: 2.3,
+ offset: {
     x: -50,
-    y: 157
+    y: 0
   },
   sprites: {
     idle: {
@@ -92,10 +92,10 @@ const ini = new Fighter({
   },
   imageSrc: 'imgs-jogo/ouro/CapParado.png',
   framesMax: 2,
-  scale: 2.5,
+ scale: 2.3,
   offset: {
-    x: -50,
-    y: 167
+    x: 0,
+    y: 13
   },
   sprites: {
     idle: {
